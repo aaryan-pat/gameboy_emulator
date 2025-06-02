@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build emulator",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-I", "C:/Users/patel/OneDrive/Desktop/SDL2-2.32.2/x86_64-w64-mingw32/include/SDL2",
+                "-L", "C:/Users/patel/OneDrive/Desktop/SDL2-2.32.2/x86_64-w64-mingw32/lib",    
+                "-lmingw32",   
+                "-lSDL2main",
+                "-lSDL2",    
+                "-lsetupapi",
+                "-limm32",
+                "-lole32",
+                "-lwinmm",
+                "-lhid",
+                "-lversion",
+                "-loleaut32",
+                "-luuid",
+                "-static",     
+                "-mwindows",                                            
+                "-o", "emulator",                                            
+                "C:/Users/patel/OneDrive/Desktop/projects/gameboy emulator/.vscode/main.c"                                                 
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Build task for the emulator"
+        }
+    ]
+}
