@@ -11,9 +11,9 @@ Implements a full LR35902 CPU core and memory banking model based on official ha
 
 - 🧪 Debugging tools for opcode logging and memory state inspection
 
-- 🔊 Audio not yet implemented — APU emulation planned in future updates
+- 🔊 Audio not yet implemented --> APU emulation planned in future updates
 
-+-------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------+
 
 https://gbdev.io/pandocs/
 
