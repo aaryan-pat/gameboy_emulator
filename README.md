@@ -1,6 +1,23 @@
+A high-accuracy Game Boy emulator written in C, focused on instruction-accurate execution and timing fidelity.
+Implements a full LR35902 CPU core and memory banking model based on official hardware documentation and publicly available test ROMs.
+
+    📦 Built with CMake for easy cross-platform setup
+
+    🖼️ Renders frames with OpenGL and SDL2, using a scanline-based pipeline with sprite/background layering and VSync
+
+    ⚙️ Supports accurate opcode timing, memory-mapped I/O, and boot ROM emulation
+
+    🚀 Achieves consistent 60 FPS gameplay on modern hardware
+
+    🧪 Debugging tools for opcode logging and memory state inspection
+
+    🔊 Audio not yet implemented — APU emulation planned in future updates
+
++-------------------------------------------------------------------------------------------+
+
 https://gbdev.io/pandocs/
 
-Required for Windows:
+Required for Windows Compile:
 
 Install MSYS2: https://www.msys2.org/
 
