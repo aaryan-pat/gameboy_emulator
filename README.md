@@ -7,8 +7,6 @@ Implements a full LR35902 CPU core and memory banking model based on official ha
 
 - ⚙️ Supports accurate opcode timing, memory-mapped I/O, and boot ROM emulation
 
-- 🚀 Achieves consistent 60 FPS gameplay on modern hardware
-
 - 🧪 Debugging tools for opcode logging and memory state inspection
 
 - 🔊 Audio not yet implemented --> APU emulation planned in future updates
